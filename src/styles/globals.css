@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-gray-50;
+}
+
+html,
+body {
+  font-size: min(2.778vw, 13px);
+}
+
+input {
+  @apply px-2;
+}
+  .fc-header-toolbar {
+    display: inline-block;
+    padding: 4px 4px;
+    
+    @apply space-x-8;
+    width: 100%;
+}
+
+.fc-day {
+  @apply m-8;
+}
+
+.fc-scrollgrid-sync-table {
+  @apply w-full;
+}
+
+.fc-view {
+  @apply w-full h-full lg:h-3/4 xl:h-2/3 bg-white;
+}
+
+.fc-h-event {
+  @apply bg-violet-500 border border-violet-600 ;
+  
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  @apply bg-violet-100 ;
+}
+
+.fc .fc-button{
+  @apply bg-violet-800 hover:bg-violet-900  ;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+  @apply bg-violet-600;
+}
+
+.fc .fc-button-primary:disabled {
+  @apply bg-violet-600;
+}
+.fc-v-event {
+  @apply bg-violet-500 border border-violet-600 ;
+  
+}
+
+.col-span-8{
+  width: 125%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fc .fc-daygrid-day-frame {
+  height: 100%;
+}
+
+
+.fc-header-toolbar .fc-toolbar .fc-toolbar-ltr{
+  align: right;
+}
+
+.fc-button{
+  height: auto;
+  width: auto;
+}
+
+.fc-toolbar-chunk{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fc-media-screen .fc-direction-ltr .fc-theme-standard{
+  width: 100%;
+  align: right;
+}
+
+.grid .grid-cols-10{
+ width: 1000px;
+}
+
+.fc-direction-ltr{
+  text-align: right;
+}
+
+
+
+.p-24{
+ padding: 1rem;
+}
